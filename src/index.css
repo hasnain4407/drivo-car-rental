@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Figtree", system-ui, sans-serif;
+  --font-display: "Archivo", system-ui, sans-serif;
+}
+
+html.dark body { background: #09090b; }
+body { font-family: var(--font-sans); }
+h1, h2, h3, .font-display { font-family: var(--font-display); font-stretch: 110%; letter-spacing: -0.01em; }
+
+@keyframes drive { to { background-position: 52px 0; } }
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-emerald-700 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-outline {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-zinc-300 bg-transparent px-5 py-2.5 text-sm font-semibold transition hover:bg-zinc-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 dark:border-zinc-700 dark:hover:bg-zinc-800;
+  }
+  .input {
+    @apply w-full rounded-lg border border-zinc-300 bg-white px-3 py-2.5 text-sm text-zinc-900 outline-none transition focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/30 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100;
+  }
+  .card {
+    @apply rounded-xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900;
+  }
+  .lane {
+    background-image: repeating-linear-gradient(90deg, currentColor 0 28px, transparent 28px 52px);
+    height: 3px;
+    animation: drive 1.4s linear infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

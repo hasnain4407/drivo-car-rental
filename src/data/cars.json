@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota Corolla",
+    "brand": "Toyota",
+    "category": "Sedan",
+    "pricePerDay": 45,
+    "fuel": "Petrol",
+    "seats": 5,
+    "transmission": "Automatic",
+    "available": true,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1200&q=85",
+    "description": "A reliable everyday sedan with great mileage and a comfortable ride for city and highway.",
+    "features": [
+      "Air conditioning",
+      "Bluetooth",
+      "Reverse camera",
+      "Cruise control"
+    ],
+    "illustration": "/images/corolla.svg"
+  },
+  {
+    "id": 2,
+    "name": "Honda Civic",
+    "brand": "Honda",
+    "category": "Sedan",
+    "pricePerDay": 55,
+    "fuel": "Petrol",
+    "seats": 5,
+    "transmission": "Automatic",
+    "available": true,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=85",
+    "description": "Sporty handling with a roomy cabin. A smart pick for business trips and weekend drives.",
+    "features": [
+      "Air conditioning",
+      "Apple CarPlay",
+      "Sunroof",
+      "Lane assist"
+    ],
+    "illustration": "/images/civic.svg"
+  },
+  {
+    "id": 3,
+    "name": "Suzuki Alto",
+    "brand": "Suzuki",
+    "category": "Hatchback",
+    "pricePerDay": 25,
+    "fuel": "Petrol",
+    "seats": 4,
+    "transmission": "Manual",
+    "available": true,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=85",
+    "description": "Compact and fuel efficient. Easy to park and the cheapest way to get around town.",
+    "features": [
+      "Air conditioning",
+      "Power steering",
+      "USB charging"
+    ],
+    "illustration": "/images/alto.svg"
+  },
+  {
+    "id": 4,
+    "name": "Toyota Fortuner",
+    "brand": "Toyota",
+    "category": "SUV",
+    "pricePerDay": 120,
+    "fuel": "Diesel",
+    "seats": 7,
+    "transmission": "Automatic",
+    "available": true,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=85",
+    "description": "A powerful 7-seater SUV built for family trips, rough roads and long distances.",
+    "features": [
+      "4x4",
+      "Leather seats",
+      "360 camera",
+      "Roof rails"
+    ],
+    "illustration": "/images/fortuner.svg"
+  },
+  {
+    "id": 5,
+    "name": "Kia Sportage",
+    "brand": "Kia",
+    "category": "SUV",
+    "pricePerDay": 90,
+    "fuel": "Petrol",
+    "seats": 5,
+    "transmission": "Automatic",
+    "available": false,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=85",
+    "description": "Modern crossover with a large touchscreen, panoramic roof and smooth ride quality.",
+    "features": [
+      "Panoramic roof",
+      "Wireless charging",
+      "Cruise control",
+      "Heated seats"
+    ],
+    "illustration": "/images/sportage.svg"
+  },
+  {
+    "id": 6,
+    "name": "Mercedes C-Class",
+    "brand": "Mercedes",
+    "category": "Luxury",
+    "pricePerDay": 180,
+    "fuel": "Petrol",
+    "seats": 5,
+    "transmission": "Automatic",
+    "available": true,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
+    "description": "Premium comfort and a refined interior for weddings, airport pickups and special days.",
+    "features": [
+      "Leather interior",
+      "Ambient lighting",
+      "Premium audio",
+      "Parking assist"
+    ],
+    "illustration": "/images/mercedes.svg"
+  },
+  {
+    "id": 7,
+    "name": "Toyota Hiace",
+    "brand": "Toyota",
+    "category": "Van",
+    "pricePerDay": 100,
+    "fuel": "Diesel",
+    "seats": 12,
+    "transmission": "Manual",
+    "available": true,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=1200&q=85",
+    "description": "Spacious 12-seater van for group tours, events and family gatherings.",
+    "features": [
+      "Air conditioning",
+      "Large luggage space",
+      "USB charging"
+    ],
+    "illustration": "/images/hiace.svg"
+  },
+  {
+    "id": 8,
+    "name": "Tesla Model 3",
+    "brand": "Tesla",
+    "category": "Luxury",
+    "pricePerDay": 160,
+    "fuel": "Electric",
+    "seats": 5,
+    "transmission": "Automatic",
+    "available": true,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1200&q=85",
+    "description": "Quiet, quick and fully electric with autopilot features and a minimalist cabin.",
+    "features": [
+      "Autopilot",
+      "Glass roof",
+      "Fast charging",
+      "Premium audio"
+    ],
+    "illustration": "/images/tesla.svg"
+  }
+]

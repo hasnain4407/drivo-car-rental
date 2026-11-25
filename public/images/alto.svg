@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-label="alto illustration">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fad391"/><stop offset="1" stop-color="#f1f5f9"/></linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7b648"/><stop offset="1" stop-color="#d08609"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#94a3b8"/><stop offset="1" stop-color="#1e293b"/></linearGradient>
+</defs>
+<rect width="800" height="400" fill="url(#sky)"/>
+<circle cx="400" cy="210" r="150" fill="#f59e0b" opacity=".12"/>
+<rect y="300" width="800" height="100" fill="#1f2933"/>
+<rect y="300" width="800" height="4" fill="#facc15" opacity=".7"/>
+<path d="M0 352 H800" stroke="#e5e7eb" stroke-width="4" stroke-dasharray="40 30" opacity=".5"/>
+<ellipse cx="400" cy="304" rx="260" ry="12" fill="#000" opacity=".35"/>
+<path d="M185,252 L185,215 Q185,200 205,196 L250,150 Q262,138 280,138 L440,138 Q480,140 510,190 L590,200 Q618,206 620,226 L620,252 Z" fill="url(#body)" stroke="#9f6607" stroke-width="2"/>
+<path d="M262,190 L282,150 L390,150 L390,190 Z" fill="url(#glass)"/><path d="M402,150 L440,150 Q468,152 488,190 L402,190 Z" fill="url(#glass)"/>
+<path d="M400,196 V250" stroke="#9f6607" stroke-width="2" opacity=".6"/>
+<rect x="615" y="218" width="16" height="9" rx="3" fill="#fde047"/>
+<rect x="173" y="222" width="10" height="9" rx="3" fill="#ef4444"/>
+<path d="M175,246 H630" stroke="#9f6607" stroke-width="3" opacity=".5"/>
+<circle cx="268" cy="262" r="46" fill="#0f172a"/><circle cx="268" cy="262" r="36" fill="#111827"/><circle cx="268" cy="262" r="20" fill="#d1d5db"/><circle cx="268" cy="262" r="7" fill="#6b7280"/><circle cx="535" cy="262" r="46" fill="#0f172a"/><circle cx="535" cy="262" r="36" fill="#111827"/><circle cx="535" cy="262" r="20" fill="#d1d5db"/><circle cx="535" cy="262" r="7" fill="#6b7280"/>
+</svg>
