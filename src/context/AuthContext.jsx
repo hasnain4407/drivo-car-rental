@@ -4,7 +4,7 @@ import useLocalStorage from '../hooks/useLocalStorage'
 // Demo auth only: accounts live in this browser's localStorage (no backend), so passwords are not secure.
 const AuthContext = createContext()
 
-const ADMIN = { id: 'admin-1', name: 'Admin', email: 'admin@Drivo.com', password: 'admin123', role: 'admin', blocked: false }
+const ADMIN = { id: 'admin-1', name: 'Admin', email: 'admin@drivo.com', password: 'admin123', role: 'admin', blocked: false }
 const publicUser = ({ password, ...rest }) => rest
 
 export const AuthProvider = ({ children }) => {
@@ -23,7 +23,7 @@ export const AuthProvider = ({ children }) => {
   }
 
   const login = ({ email, password }) => {
-    const u = users.find((x) => x.email === email.trim().toLowerCase() && x.password === password)
+  const u = users.find((x) => x.email.toLowerCase() === email.trim().toLowerCase() && x.password === password)  
     if (!u) throw new Error('Email or password is incorrect.')
     if (u.blocked) throw new Error('Your account has been blocked.')
     setCurrentId(u.id)
